@@ -85,35 +85,35 @@
 
     </TableLayout>
 
-   <LinearLayout
-       android:orientation="vertical"
-       android:layout_marginTop="80dp"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-       <TextView
-           android:text="Soto Banjar"
-           android:textStyle="bold"
-           android:textSize="25dp"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:text="Soto Banjar"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,SpUsage" />
 
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:layout_marginTop="25dp"
-           android:text="@string/deskripsi"
-           android:justificationMode="inter_word"
-           tools:targetApi="o" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/deskripsi"
+            android:justificationMode="inter_word"
+            tools:targetApi="o" />
 
-       <Button
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:text="More"
-           tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More"
+            tools:ignore="HardcodedText" />
 
-   </LinearLayout>
+    </LinearLayout>
 
 
 
