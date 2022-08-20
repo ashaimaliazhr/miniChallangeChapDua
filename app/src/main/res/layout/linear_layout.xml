@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/tiga"
+        tools:ignore="ContentDescription" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/tv_indonesiaFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/indonesian_food"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lihat_detail"
+            android:textSize="20dp"
+            android:layout_toRightOf="@+id/tv_indonesiaFood"
+            android:layout_marginLeft="90dp"
+            tools:ignore="RtlHardcoded,SpUsage" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:text="Soto Banjar"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:text="Rendang"
+                android:layout_marginLeft="30dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:text="Pempek"
+                android:layout_marginLeft="45dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:text="Gudeg"
+                android:layout_marginLeft="30dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="BANJAR"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:text="PADANG"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:text="PALEMBANG"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:text="JOGJA"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+        </TableRow>
+
+    </TableLayout>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_marginTop="80dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:text="Soto Banjar"
+           android:textStyle="bold"
+           android:textSize="25dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           tools:ignore="HardcodedText,SpUsage" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="25dp"
+           android:text="@string/deskripsi"
+           android:justificationMode="inter_word"
+           tools:targetApi="o" />
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="More"
+           tools:ignore="HardcodedText" />
+
+   </LinearLayout>
+
+
+
+</LinearLayout>
